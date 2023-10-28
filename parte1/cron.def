@@ -1,0 +1,20 @@
+###############################################################################
+## ISCTE-IUL: Trabalho prático de Sistemas Operativos 2022/2023
+##
+## Aluno: Nº: 111008      Nome: Rodrigo Miguel Gomes Amaral Leitão
+## Nome do Módulo: cron.def
+## Descrição/Explicação do Módulo:
+## 17 - corre no minuto 17
+## 9 - corre na hora 9
+## * - corre a qualquer dia
+## * - corre a qualquer mês
+## 4 - corre no dia de índice 4 (o 5º dia) da semana (quinta-feira)
+##
+## Explicação de quais os comandos a usar para configurar o seu sistema Linux
+## usando este ficheiro: 
+## executar o comando crontab e passar o caminho para o ficheiro como argumento
+## e.g.: crontab /home/a111008/projeto/part1/cron.def
+##
+###############################################################################
+
+17 9 * * 4 cd /home/a111008/projeto/part1; ./refill.sh
